@@ -1,6 +1,6 @@
 {
   "name": "serverless-test",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Serverless Framework hello world test.",
   "main": "handler.js",
   "scripts": {

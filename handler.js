@@ -1,7 +1,6 @@
-'use strict';
-
-module.exports.hello = async event => {
-  console.log("hello");
+module.exports.hello = async (event) => {
+  // eslint-disable-next-line no-console
+  console.log('Hello world');
 
   return {
     statusCode: 200,
@@ -11,7 +10,7 @@ module.exports.hello = async event => {
         input: event,
       },
       null,
-      2
+      2,
     ),
   };
 };

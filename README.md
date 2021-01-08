@@ -4,7 +4,7 @@ Serverless Framework hello world test.
 
 ## requirements
 
-- [NodeJS](https://nodejs.org/en/)
+- [NodeJS v12.18.3](https://nodejs.org/en/)
 - [AWS Account](https://aws.amazon.com/)
   - Access Key Id (key)
   - Secret Access Key (secret)

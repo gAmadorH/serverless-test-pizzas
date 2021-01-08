@@ -4,6 +4,8 @@
   "description": "Serverless Framework hello world test.",
   "main": "handler.js",
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,5 +17,10 @@
     "serverless-framework"
   ],
   "author": "Gonzalo Amador <gamadorh93@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
 }

@@ -1,4 +1,9 @@
 {
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
   "files.autoSave": "onFocusChange",
   "editor.formatOnSave": true,
   "editor.rulers": [

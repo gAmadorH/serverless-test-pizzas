@@ -1,0 +1,11 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    100
+  ],
+  "cSpell.enabled": true,
+  "cSpell.words": [
+    "amador"
+  ]
+}
